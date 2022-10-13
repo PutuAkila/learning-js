@@ -1,0 +1,91 @@
+body{
+    margin: 100px 0px 100px 0px;
+}
+
+.inputForm {
+  margin: 0 0 0 500px;
+  padding: 10px 10px 10px;
+  text-align: center;
+}
+
+#input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+#input label{
+    font-weight: 1000;
+    font-size: 25px;
+}
+.inputForm div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+input[type="text" i] {
+  background-color: #b7eed9;
+  padding: 6px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  width: 70%;
+  border-radius: 5px;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.699);
+  font-size: 15px;
+  font-weight: 300;
+}
+.inputForm .button {
+  width: 100%;
+  justify-content: end;
+  padding-right: 275px;
+}
+input[type="submit" i] {
+  padding: 10px 20px;
+  background-color: #039427;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+input[type="submit" i]:hover{
+    background-color: #048123;
+}
+
+.list {
+  width: 95%;
+  margin: auto;
+  margin-top: 80px;
+  color: white;
+}
+
+.list thead {
+  background-color: #039427;
+}
+
+#datalist th, #datalist
+td {
+  padding-left: 10px;
+  height: 40px;
+}
+
+#tbody {
+  color: black;
+}
+
+#tbody tr:nth-child(odd) {
+  background-color: #cbd5ea;
+}
+
+#tbody tr:nth-child(even) {
+  background-color: #e7ebf5;
+}
+
+#tbody a {
+  cursor: pointer;
+}
+
+#tbody a:hover{
+    color: #048123;
+}
